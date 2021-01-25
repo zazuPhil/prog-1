@@ -1,0 +1,13 @@
+import satetime,  time
+
+dt  = datetime.datetime.now()
+
+print(dt.date())
+
+persunum =  input("Mata in ditt personnumer(yyyymmdd): ")
+
+dtpers  = dt.strptime(persnum,  '%Y%m%d')
+
+if dt.date () ==  dtpers.date():
+  print("Grattis det är din födelsedag! ",  dtpers.date())
+  
